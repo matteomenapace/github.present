@@ -1,8 +1,7 @@
 ### How to install this
 
 1. In Chrome, open the `Bookmarks Manager`
-* Right-click on the `Bookmarks Bar` folder
-* `Add Page...` 
+* Right-click on the `Bookmarks Bar` folder and click `Add Page...` 
 	* `Name` can be whatever you like, e.g. `GitHub.print`
 	* `URL`: copy-paste all the JS code in [bookmarklet.js](https://raw.githubusercontent.com/CodeAndCake/github.print/master/bookmarklet.js)
 
