@@ -21,9 +21,34 @@ javascript:(function()
 		 .file')
 	.css(
 	{
-		'font-family':'Lekton', 
 		'border':'none', 
 		'padding': '0'
+	});
+
+	/* images */
+	$('img')
+	.css(
+	{
+		'max-width': '100%',
+    'vertical-align': 'middle'
+	});
+
+	/* tables */
+	$('.markdown-body table tr th, 
+		 .markdown-body table tr td')
+	.css(
+	{
+		'padding':'1rem',
+		'vertical-align': 'top'
+	});
+
+	/* TYPOGRAPHY */
+	$('#readme .markdown-body, 
+		 .file')
+	.css(
+	{
+		'font-family':'Lekton', 
+		'-webkit-font-smoothing': 'antialiased'
 	});
 
 	/* headings */
