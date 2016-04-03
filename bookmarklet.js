@@ -55,12 +55,17 @@ javascript:(function()
   });
   
   /* print-only stuff */
-  $('h1')
+  $('h1', '.markdown-body')
   .css(
   {
     'page-break-before': 'always'
   }); 
-  
+  $('h1:first-child', '.markdown-body')
+  .css(
+  {
+    'page-break-before': 'avoid'
+  }); 
+
   $('pre, blockquote')
   .css(
   {
