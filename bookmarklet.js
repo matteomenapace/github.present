@@ -2,23 +2,14 @@ javascript:(function()
 {
 
   /* hide unneccessary elements */
-  $('.header, 
-     .pagehead, 
-     .repository-sidebar, 
-     .commit-tease, 
-     .file-wrap, 
-     .boxed-group>h3, 
-     .site-footer, 
-     .file-navigation, 
-     .file-header')
+  $('.header, .pagehead, .repository-sidebar, .commit-tease, .file-wrap, .boxed-group>h3, .site-footer, .file-navigation, .file-header')
   .css(
   {
     'display':'none'
   });
 
   /* general rules for the "body" */
-  $('#readme .markdown-body, 
-     .file')
+  $('#readme .markdown-body, .file')
   .css(
   {
     'border':'none', 
@@ -34,8 +25,7 @@ javascript:(function()
   });
 
   /* tables */
-  $('.markdown-body table tr th, 
-     .markdown-body table tr td')
+  $('th, td', '.markdown-body table tr')
   .css(
   {
     'padding':'1rem',
@@ -43,8 +33,7 @@ javascript:(function()
   });
 
   /* TYPOGRAPHY */
-  $('#readme .markdown-body, 
-     .file')
+  $('#readme .markdown-body, .file')
   .css(
   {
     'font-family':'Lekton', 
@@ -52,15 +41,13 @@ javascript:(function()
   });
 
   /* headings */
-  $('.markdown-body h1, 
-     .markdown-body h2')
+  $('h1, h2', '.markdown-body')
   .css(
   {
     'border-bottom':'none'
   });
 
-  $('.markdown-body .highlight pre, 
-     .markdown-body code')
+  $('.highlight pre, code', '.markdown-body')
   .css(
   { 
     'background-color':'#E0E0E0', 
@@ -74,8 +61,7 @@ javascript:(function()
     'page-break-before': 'always'
   }); 
   
-  $('pre, 
-     blockquote')
+  $('pre, blockquote')
   .css(
   {
     'page-break-inside': 'avoid'
