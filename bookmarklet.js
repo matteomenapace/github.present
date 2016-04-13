@@ -13,7 +13,7 @@ javascript:(function()
   .css(
   {
     'border':'none', 
-    'padding': '0 1rem'
+    'padding': '0 8rem'
   });
 
   /* images */
