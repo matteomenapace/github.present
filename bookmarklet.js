@@ -96,5 +96,18 @@ javascript:(function()
     'font-weight': 'bold'
   });
   
-
+  var style  = 'blockquote:before {';
+      style += 'content: "Your turn";' ;
+      style += 'position: absolute;' ;
+      style += 'color: #FF8F04;' ;
+      style += 'top: -1.3rem;' ;
+      style += 'left: -.3rem;' ;
+      style += 'font-size: 83%;' ; 
+      style += 'font-weight: bold;' ;
+      style += '}' ;
+  
+  
+  var $style = $('<style>' + style + '</style>');
+      $style.appendTo('head');
+ 
 }())
