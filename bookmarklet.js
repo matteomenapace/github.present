@@ -71,5 +71,30 @@ javascript:(function()
   {
     'page-break-inside': 'avoid'
   });
+  
+  $('blockquote')
+  .css(
+  {
+    'padding': '1rem 1.25rem',
+    'color': 'inherit',
+    'border-left': '4px solid rgb(255, 143, 4)',
+    'position': 'relative',
+    'margin-top': '2rem',
+    'background': 'rgba(255, 143, 4, 0.2)'
+  });
+  
+  $('blockquote:before')
+  .css(
+  {
+    'content': '"Your turn"',
+    'position': 'absolute',
+    'color': '#FF8F04',
+    'top': '-1.3rem',
+    'left': '-.3rem',
+    'display': 'block',
+    'font-size': '83%',
+    'font-weight': 'bold'
+  });
+  
 
 }())
