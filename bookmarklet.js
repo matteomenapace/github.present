@@ -83,21 +83,33 @@ javascript:(function()
     'background': 'rgba(255, 143, 4, 0.2)'
   });
   
-  var css =    'blockquote:before 
-                {
-                  content: "Your turn";
-                  position: absolute;
-                  color: #FF8F04;
-                  top: -1.3rem;
-                  left: -.3rem;
-                  font-size: 83%;
-                  font-weight: bold;
-                }
-                
-                article.markdown-body.entry-content
-                {
-                  padding: 0px 8rem;
-                }';
+  var css =    
+  '
+  blockquote:before 
+  {
+    content: "Your turn";
+    position: absolute;
+    color: #FF8F04;
+    top: -1.3rem;
+    left: -.3rem;
+    font-size: 83%;
+    font-weight: bold;
+  }
+
+  article.markdown-body.entry-content
+  {
+    padding: 0px 8rem;
+  }
+
+  .markdown-body h1,
+  .markdown-body h2,
+  .markdown-body h3,
+  .markdown-body h4,
+  .markdown-body h5
+  {
+    margin-top: 2rem; 
+  }
+  ';
   
   var $style = $('<style>' + css + '</style>');
       $style.appendTo('head');
