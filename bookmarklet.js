@@ -83,31 +83,18 @@ javascript:(function()
     'background': 'rgba(255, 143, 4, 0.2)'
   });
   
-  $('blockquote:before')
-  .css(
-  {
-    'content': '"Your turn"',
-    'position': 'absolute',
-    'color': '#FF8F04',
-    'top': '-1.3rem',
-    'left': '-.3rem',
-    'display': 'block',
-    'font-size': '83%',
-    'font-weight': 'bold'
-  });
+  var css =    'blockquote:before 
+                {
+                  content: "Your turn";
+                  position: absolute;
+                  color: #FF8F04;
+                  top: -1.3rem;
+                  left: -.3rem;
+                  font-size: 83%;
+                  font-weight: bold;
+                }';
   
-  var style  = 'blockquote:before {';
-      style += 'content: "Your turn";' ;
-      style += 'position: absolute;' ;
-      style += 'color: #FF8F04;' ;
-      style += 'top: -1.3rem;' ;
-      style += 'left: -.3rem;' ;
-      style += 'font-size: 83%;' ; 
-      style += 'font-weight: bold;' ;
-      style += '}' ;
-  
-  
-  var $style = $('<style>' + style + '</style>');
+  var $style = $('<style>' + css + '</style>');
       $style.appendTo('head');
  
 }())
