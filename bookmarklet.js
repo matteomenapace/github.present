@@ -107,7 +107,7 @@ javascript:(function()
   .markdown-body h4,
   .markdown-body h5
   {
-    margin-top: 2rem; 
+    margin-top: 4rem; 
   }
   ';
   
