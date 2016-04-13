@@ -92,6 +92,11 @@ javascript:(function()
                   left: -.3rem;
                   font-size: 83%;
                   font-weight: bold;
+                }
+                
+                article.markdown-body.entry-content
+                {
+                  padding: 0px 8rem;
                 }';
   
   var $style = $('<style>' + css + '</style>');
