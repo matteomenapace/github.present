@@ -95,6 +95,17 @@ javascript:(function()
     font-size: 83%;
     font-weight: bold;
   }
+  
+  pre
+  {
+    background-color: rgb(255, 249, 234);
+    border: 1px solid rgba(255, 143, 4, .25);
+  }
+  
+  code
+  {
+    padding: .3em .1em;
+  }
 
   article.markdown-body.entry-content
   {
@@ -109,6 +120,8 @@ javascript:(function()
   {
     margin-top: 4rem; 
   }
+  
+  
   ';
   
   var $style = $('<style>' + css + '</style>');
