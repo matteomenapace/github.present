@@ -89,14 +89,26 @@ javascript:(function()
     font-weight: bold;
   }
   
-  .markdown-body pre, .markdown-body code
+  .markdown-body pre,
+  .markdown-body .highlight pre,
+  .markdown-body code
   {
     word-break: break-word;
     background-color: rgb(255, 249, 234);
     border: 1px solid rgba(255, 143, 4, .25);
+    font-family: 'Source Code Pro';
+    font-weight: 500;
   }
   
-  code
+  .markdown-body pre,
+  .markdown-body .highlight pre
+  {
+    padding: 1rem .5rem;  
+    overflow: hidden;
+    overflow-wrap: break-word;
+  }
+  
+  .markdown-body code
   {
     padding: .3em .1em;
   }
