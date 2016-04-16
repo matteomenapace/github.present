@@ -46,13 +46,6 @@ javascript:(function()
   {
     'border-bottom':'none'
   });
-
-  $('.highlight pre, code', '.markdown-body')
-  .css(
-  { 
-    'background-color':'#E0E0E0', 
-    'word-break':'break-word'
-  });
   
   /* print-only stuff */
   $('h1', '.markdown-body')
@@ -96,8 +89,9 @@ javascript:(function()
     font-weight: bold;
   }
   
-  pre
+  .markdown-body pre, .markdown-body code
   {
+    word-break: break-word;
     background-color: rgb(255, 249, 234);
     border: 1px solid rgba(255, 143, 4, .25);
   }
