@@ -96,7 +96,7 @@ javascript:(function()
     word-break: break-word;
     background-color: rgb(255, 249, 234);
     border: 1px solid rgba(255, 143, 4, .25);
-    font-family: 'Source Code Pro';
+    font-family: "Source Code Pro";
     font-weight: 500;
   }
   
