@@ -1,13 +1,6 @@
 javascript:(function()
 {
 
-  /* hide unneccessary elements */
-  $('.header, .pagehead, .repository-sidebar, .commit-tease, .file-wrap, .boxed-group>h3, .site-footer, .file-navigation, .file-header')
-  .css(
-  {
-    'display':'none'
-  });
-
   /* general rules for the "body" */
   $('#readme .markdown-body, .file')
   .css(
@@ -47,17 +40,6 @@ javascript:(function()
     'border-bottom':'none'
   });
   
-  /* print-only stuff */
-  $('h1', '.markdown-body')
-  .css(
-  {
-    'page-break-before': 'always'
-  }); 
-  $('h1:first-child', '.markdown-body')
-  .css(
-  {
-    'page-break-before': 'avoid'
-  }); 
 
   $('pre, blockquote')
   .css(
@@ -78,6 +60,31 @@ javascript:(function()
   
   var css =    
   '
+  
+  /* hide unneccessary elements */
+  .header, 
+  .pagehead, 
+  .repository-sidebar, 
+  .commit-tease, 
+  .file-wrap, 
+  .boxed-group>h3, 
+  .site-footer, 
+  .file-navigation, 
+  .file-header
+  {
+    display:none;
+  }
+  
+  h1, .new-page
+  {
+    page-break-before: always;
+  } 
+  h1:first-child
+  {
+    page-break-before: avoid;
+  }
+
+  /* Your turn! */
   blockquote:before 
   {
     content: "Your turn";
