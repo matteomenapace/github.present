@@ -40,12 +40,6 @@ javascript:(function()
     'border-bottom':'none'
   });
   
-
-  $('pre, blockquote')
-  .css(
-  {
-    'page-break-inside': 'avoid'
-  });
   
   $('blockquote')
   .css(
@@ -75,6 +69,7 @@ javascript:(function()
     display:none;
   }
   
+  /* page breaks */
   h1, .new-page
   {
     page-break-before: always;
@@ -82,6 +77,13 @@ javascript:(function()
   h1:first-child
   {
     page-break-before: avoid;
+  }
+  
+  pre, 
+  blockquote,
+  li
+  {
+    page-break-inside: avoid;
   }
 
   /* Your turn! */
