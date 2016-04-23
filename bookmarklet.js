@@ -127,17 +127,6 @@ javascript:(function()
     margin-top: 4rem; 
   }
   
-  /* page numbers */
-  @page 
-  {
-    counter-increment: page;
-    counter-reset: page 1;
-    @top-right 
-    {
-      content: "Page " counter(page) " of " counter(pages);
-    }
-  }
-  
   
   ';
   
