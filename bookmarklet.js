@@ -103,7 +103,7 @@ javascript:(function()
   .markdown-body pre,
   .markdown-body .highlight pre
   {
-    padding: 1rem .5rem;  
+    padding: 1rem;  
     overflow: hidden;
     overflow-wrap: break-word;
   }
