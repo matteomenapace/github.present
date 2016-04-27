@@ -71,6 +71,22 @@ body
     background: whitesmoke;
 }
 
+/* LINKS */
+
+a 
+{
+    color: #00a5e5;
+    background: transparent;
+    transition: 0.6s;
+}  
+
+a:hover, a:active
+{
+    text-decoration: none;
+    background: #00a5e5;
+    color: white;
+}  
+
 /* HEADINGS */
 
 .markdown-body h1 
