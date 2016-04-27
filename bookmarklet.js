@@ -76,15 +76,16 @@ body
 a 
 {
     color: #00a5e5;
-    background: transparent;
-    transition: 0.6s;
+    /*background: transparent;
+    transition: 0.6s;*/
 }  
 
 a:hover, a:active
 {
     text-decoration: none;
-    background: #00a5e5;
-    color: white;
+    border-bottom: 2px solid;
+    /*background: #00a5e5;
+    color: white;*/
 }  
 
 /* HEADINGS */
