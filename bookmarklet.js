@@ -134,7 +134,8 @@ body
 ';
 
 var style = document.createElement('style');
-    style.rel='stylesheet';
+    style.type = 'text/css';
+    style.innerHTML = css;
     
 document.head.appendChild(style);
  
