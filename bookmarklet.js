@@ -37,7 +37,7 @@ body
 .container 
 { 
 	width: 100%; 
-	padding: 2.5em 2em; 
+	padding: 2.5rem 2rem; 
 }
 
 .repository-with-sidebar .repository-content 
@@ -48,7 +48,7 @@ body
 
 #readme .markdown-body 
 { 
-	font-size: 2.5em; 
+	/*font-size: 2.5em; */
 	border: none; 
 	padding: 0; 
 }
@@ -57,17 +57,17 @@ body
 
 .markdown-body p, li 
 {
-	margin-bottom: 1em; 
-	font-size: 1.5em;
+	margin-bottom: 2.5rem; 
+	font-size: 4rem;
 }
 
 /* BLOCK QUOTES */
 
 .markdown-body blockquote 
 {
-    padding: 1em;
+    padding: 2rem;
     color: #444;
-    border-left: .25em solid #ddd;
+    border-left: .5rem solid #ddd;
     background: whitesmoke;
 }
 
@@ -92,27 +92,27 @@ a:hover, a:active
 
 .markdown-body h1 
 { 
-	font-size: 6em; 
+	font-size: 12rem; 
 }
 
 .markdown-body h2 
 { 
-	font-size: 5em; 
+	font-size: 10rem; 
 }
 
 .markdown-body h3
 {
-	font-size: 4em; 	
+	font-size: 8rem; 	
 }
 
 .markdown-body h4 
 { 
-	font-size: 3em;  
+	font-size: 6rem;  
 }
 
 .markdown-body h5 
 { 
-	font-size: 2em;  
+	font-size: 4rem;  
 }
 
 .markdown-body h2,
@@ -134,8 +134,8 @@ a:hover, a:active
 .markdown-body h4,
 .markdown-body h5 
 { 
-	margin-top: 4em; 
-	margin-bottom: 1em; 
+	margin-top: 8rem; 
+	margin-bottom: 2rem; 
 	line-height: 1.2; 
 }
 
@@ -159,7 +159,7 @@ a:hover, a:active
 { 
 	font: inherit; 
 	line-height: inherit; 
-	padding: .25em .5em; 
+	padding: .5rem 1rem; 
 }
   
   
