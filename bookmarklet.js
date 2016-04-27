@@ -27,7 +27,7 @@ body
 	color: inherit; 
 } 
 
-#readme .markdown-body, 
+.markdown-body, 
 .file 
 { 
 	font-family: "Lekton"; 
@@ -56,6 +56,7 @@ body
 .markdown-body p 
 {
 	margin-bottom: 1em; 
+	font-size: 1.5em;
 }
 
 /* HEADINGS */
