@@ -13,7 +13,9 @@ var css =
 .file-wrap, 
 .boxed-group>h3, 
 .site-footer, 
-.file-header 
+.file-header,
+.btn-group.right,
+.branch-select-menu
 { 
 	display: none; 
 }
