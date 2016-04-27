@@ -53,10 +53,22 @@ body
 	padding: 0; 
 }
 
+/* PARAGRAPHS */
+
 .markdown-body p 
 {
 	margin-bottom: 1em; 
 	font-size: 1.5em;
+}
+
+/* BLOCK QUOTES */
+
+.markdown-body blockquote 
+{
+    padding: 1em;
+    color: #444;
+    border-left: .25em solid #ddd;
+    background: whitesmoke;
 }
 
 /* HEADINGS */
