@@ -55,7 +55,7 @@ body
 
 /* PARAGRAPHS */
 
-.markdown-body p 
+.markdown-body p, li 
 {
 	margin-bottom: 1em; 
 	font-size: 1.5em;
