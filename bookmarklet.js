@@ -1,145 +1,141 @@
 javascript:(function()
 {
 
-  /* general rules for the "body" */
-  $('#readme .markdown-body, .file')
-  .css(
-  {
-    'border':'none', 
-    'padding': '0 8rem'
-  });
+var css =    
+'
+  
+/* HIDE STUFF */
 
-  /* images */
-  $('img')
-  .css(
-  {
-    'max-width': '100%',
-    'vertical-align': 'middle'
-  });
+.header, 
+.pagehead, 
+.repository-sidebar, 
+.commit-tease, 
+.file-wrap, 
+.boxed-group>h3, 
+.site-footer, 
+.file-header 
+{ 
+	display: none; 
+}
 
-  /* tables */
-  $('th, td', '.markdown-body table tr')
-  .css(
-  {
-    'padding':'1rem',
-    'vertical-align': 'top'
-  });
+/* GENERAL RULES */
 
-  /* TYPOGRAPHY */
-  $('#readme .markdown-body, .file')
-  .css(
-  {
-    'font-family':'Lekton', 
-    '-webkit-font-smoothing': 'antialiased'
-  });
+body 
+{ 
+	color: inherit; 
+} 
 
-  /* headings */
-  $('h1, h2', '.markdown-body')
-  .css(
-  {
-    'border-bottom':'none'
-  });
-  
-  
-  $('blockquote')
-  .css(
-  {
-    'padding': '1rem 1.25rem',
-    'color': 'inherit',
-    'border-left': '4px solid rgb(255, 143, 4)',
-    'position': 'relative',
-    'margin-top': '2rem',
-    'background': 'rgba(255, 143, 4, 0.2)'
-  });
-  
-  var css =    
-  '
-  
-  /* hide unneccessary elements */
-  .header, 
-  .pagehead, 
-  .repository-sidebar, 
-  .commit-tease, 
-  .file-wrap, 
-  .boxed-group>h3, 
-  .site-footer, 
-  .file-navigation, 
-  .file-header
-  {
-    display:none;
-  }
-  
-  /* page breaks */
-  h1, .new-page
-  {
-    page-break-before: always;
-  } 
-  h1:first-child
-  {
-    page-break-before: avoid;
-  }
-  
-  pre, 
-  blockquote,
-  li
-  {
-    page-break-inside: avoid;
-  }
+#readme .markdown-body, 
+.file 
+{ 
+	font-family: "Lekton"; 
+	border: none; 
+} 
 
-  /* Your turn! */
-  blockquote:before 
-  {
-    content: "Your turn";
-    position: absolute;
-    color: #FF8F04;
-    top: -1.3rem;
-    left: -.3rem;
-    font-size: 83%;
-    font-weight: bold;
-  }
-  
-  .markdown-body pre,
-  .markdown-body .highlight pre,
-  .markdown-body code
-  {
-    word-break: break-word;
-    background-color: rgb(255, 249, 234);
-    border: 1px solid rgba(255, 143, 4, .25);
-    font-family: "Source Code Pro";
-    font-weight: 500;
-  }
-  
-  .markdown-body pre,
-  .markdown-body .highlight pre
-  {
-    padding: 1rem;  
-    overflow: hidden;
-    overflow-wrap: break-word;
-  }
-  
-  .markdown-body code
-  {
-    padding: .3em .1em;
-  }
+.container 
+{ 
+	width: 100%; 
+	padding: 2.5em 2em; 
+}
 
-  article.markdown-body.entry-content
-  {
-    padding: 0px 8rem;
-  }
+.repository-with-sidebar .repository-content 
+{ 
+	float: none; 
+	width: auto; 
+}
 
-  .markdown-body h1,
-  .markdown-body h2,
-  .markdown-body h3,
-  .markdown-body h4,
-  .markdown-body h5
-  {
-    margin-top: 4rem; 
-  }
+#readme .markdown-body 
+{ 
+	font-size: 2.5em; 
+	border: none; 
+	padding: 0; 
+}
+
+.markdown-body p 
+{
+	margin-bottom: 1em; 
+}
+
+/* HEADINGS */
+
+.markdown-body h1 
+{ 
+	font-size: 6em; 
+}
+
+.markdown-body h2 
+{ 
+	font-size: 5em; 
+}
+
+.markdown-body h3
+{
+	font-size: 4em; 	
+}
+
+.markdown-body h4 
+{ 
+	font-size: 3em;  
+}
+
+.markdown-body h5 
+{ 
+	font-size: 2em;  
+}
+
+.markdown-body h2,
+.markdown-body h1 
+{ 
+	border-bottom: none; 
+}
+
+.markdown-body h3,
+.markdown-body h4,
+.markdown-body h5
+{ 
+	font-weight: normal; 
+}
+
+.markdown-body h1,
+.markdown-body h2,
+.markdown-body h3,
+.markdown-body h4,
+.markdown-body h5 
+{ 
+	margin-top: 4em; 
+	margin-bottom: 1em; 
+	line-height: 1.2; 
+}
+
+/* CODE */
+
+.markdown-body .highlight pre, 
+.markdown-body code 
+{ 
+	background-color: #E0E0E0; 
+	word-break: break-word; 
+} 
+
+.markdown-body .highlight pre, 
+.markdown-body code, 
+.markdown-body kbd 
+{ 
+	font-family: "Source Code Pro"; 
+} 
+
+.markdown-body kbd 
+{ 
+	font: inherit; 
+	line-height: inherit; 
+	padding: .25em .5em; 
+}
   
   
-  ';
-  
-  var $style = $('<style>' + css + '</style>');
-      $style.appendTo('head');
+';
+
+var style = document.createElement('style');
+    style.rel='stylesheet';
+    
+document.head.appendChild(style);
  
 }())
