@@ -134,8 +134,8 @@ a:hover, a:active
 .markdown-body h4,
 .markdown-body h5 
 { 
-	margin-top: 8rem; 
-	margin-bottom: 2rem; 
+	margin-top: 4em; 
+	margin-bottom: 2em; 
 	line-height: 1.2; 
 }
 
