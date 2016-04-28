@@ -142,7 +142,9 @@ a:hover, a:active
 /* IMAGES  */
 img:not(.emoji)
 {
-	height: 100vh;
+	height: 96vh;
+    	margin: 2vh auto;
+    	display: block;
 }
 
 /* LISTS */
