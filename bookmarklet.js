@@ -139,6 +139,20 @@ a:hover, a:active
 	line-height: 1.2; 
 }
 
+/* IMAGES  */
+img:not(.emoji)
+{
+	height: 100vh;
+}
+
+/* LISTS */
+
+.markdown-body ul, 
+.markdown-body ol 
+{
+    padding-left: 6em;
+}
+
 /* CODE */
 
 .markdown-body .highlight pre, 
