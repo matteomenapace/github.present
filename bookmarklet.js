@@ -169,7 +169,26 @@ img:not(.emoji)
 .markdown-body kbd 
 { 
 	font-family: "Source Code Pro"; 
+	font-size: 4rem;
 } 
+
+.markdown-body .highlight pre 
+{
+	padding: 0.5em .75em;
+	margin-bottom: 7.5rem;
+	white-space: pre-wrap;
+	white-space: -moz-pre-wrap;
+ 	white-space: -pre-wrap;
+ 	white-space: -o-pre-wrap;
+ 	word-wrap: break-word;
+}
+
+/* variables */ 
+/*.pl-smi,
+.pl-c1
+{
+	color: #6cc644;	
+}*/
 
 .markdown-body kbd 
 { 
