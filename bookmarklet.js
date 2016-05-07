@@ -214,12 +214,13 @@ document.head.appendChild(style);
 
 // enable all checkboxes!
 var inputs = document.getElementsByTagName("INPUT");
-inputs.forEach(function (input)
+for (var i=0; i<inputs.length; i++)
 {
+	var input = inputs[i];
 	if (input.type == "checkbox")
 	{
 		input.disabled = false;
 	}
-})
+}
  
 }())
