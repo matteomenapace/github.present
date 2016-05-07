@@ -149,10 +149,16 @@ img:not(.emoji)
 
 /* LISTS */
 
+.markdown-body > ul, 
+.markdown-body > ol 
+{
+    padding-left: 6em;
+}
+
 .markdown-body ul, 
 .markdown-body ol 
 {
-    padding-left: 6em;
+    padding-left: 1em;
 }
 
 /* CODE */
