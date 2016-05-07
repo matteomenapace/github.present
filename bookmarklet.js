@@ -212,7 +212,7 @@ var style = document.createElement('style');
     
 document.head.appendChild(style);
 
-// enable all checkboxes!
+/* enable all checkboxes */
 var inputs = document.getElementsByTagName("INPUT");
 for (var i=0; i<inputs.length; i++)
 {
