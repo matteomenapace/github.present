@@ -155,11 +155,6 @@ img:not(.emoji)
     padding-left: 6em;
 }
 
-.markdown-body ul, 
-.markdown-body ol 
-{
-    padding-left: 1em;
-}
 
 /* CODE */
 
