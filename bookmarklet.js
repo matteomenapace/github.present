@@ -60,9 +60,18 @@ body
 
 .markdown-body p, li 
 {
-	margin-bottom: 2.5rem; 
 	font-size: 4rem;
 }
+
+.markdown-body p
+{
+	margin-bottom: 4em;
+}
+
+.markdown-body li 
+{
+	margin-bottom: 1em;
+}	
 
 /* BLOCK QUOTES */
 
@@ -158,6 +167,28 @@ img:not(.emoji)
     padding-left: 6em;
 }
 
+/* CHECKBOXES */
+
+[type=checkbox] 
+{
+    transform: scale(4);
+    position: relative;
+    left: -3em;
+    -webkit-appearance: none;
+    border: 1px solid grey;
+    width: 1em;
+    height: 1em;
+    border-radius: .2em;
+    transition: background,border-color 0.3s;
+    outline: none;
+    cursor: pointer;
+}
+
+[type=checkbox]:checked
+{
+	background: #00a5e5;
+	border-color: #00a5e5;
+}
 
 /* CODE */
 
