@@ -8,6 +8,9 @@ var css =
 
 .header, 
 .pagehead, 
+.repository-meta,
+.overall-summary,
+.file-navigation,
 .repository-sidebar, 
 .commit-tease, 
 .file-wrap, 
