@@ -171,8 +171,8 @@ img:not(.emoji)
 
 [type=checkbox] 
 {
-    transform: scale(4);
-    position: relative;
+    /*transform: scale(4);
+    position: relative;*/
     left: -3em;
     -webkit-appearance: none;
     border: 1px solid grey;
