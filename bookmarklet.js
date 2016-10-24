@@ -63,7 +63,8 @@ body
 	font-size: 4rem;
 }
 
-.markdown-body p
+.markdown-body p,
+.markdown-body blockquote
 {
 	margin-bottom: 4em;
 }
