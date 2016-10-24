@@ -58,7 +58,8 @@ body
 
 /* PARAGRAPHS */
 
-.markdown-body p, li 
+.markdown-body p, li,
+.markdown-body blockquote
 {
 	font-size: 4rem;
 }
