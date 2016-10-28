@@ -261,5 +261,24 @@ for (var i=0; i<inputs.length; i++)
 		input.disabled = false;
 	}
 }
- 
+	
+	
+/* fix images */	
+var images = document.querySelectorAll(".markdown-body img");
+for (var i=0; i<images.length; i++)
+{
+	var image = images[i];
+	image.style.display = 'none';
+	
+	var parent = image.parentElement;
+	parent.style.backgroundImage = 'url(' + image.src + ')';
+	parent.style.width = '100%';
+    	parent.style.height = '100vh';
+    	parent.style.display = 'block';
+    	parent.style.backgroundSize = 'contain';
+    	parent.style.backgroundRepeat = 'no-repeat';
+    	parent.style.backgroundPosition = 'center';
+
+}
+	
 }())
