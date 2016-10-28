@@ -89,6 +89,7 @@ body
 
 a 
 {
+    font-weight: 700;
     color: #00dfb7;
     transition: 0.6s;
     /*background: transparent;*/
@@ -136,12 +137,12 @@ a:hover, a:active
 	border-bottom: none; 
 }
 
-.markdown-body h3,
+/*.markdown-body h3,
 .markdown-body h4,
 .markdown-body h5
 { 
 	font-weight: normal; 
-}
+}*/
 
 .markdown-body h1,
 .markdown-body h2,
@@ -149,6 +150,8 @@ a:hover, a:active
 .markdown-body h4,
 .markdown-body h5 
 { 
+	font-family: "Roboto",-apple-system-font,"Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-weight: 900;
 	margin-top: 4em; 
 	margin-bottom: 2em; 
 	line-height: 1.2; 
