@@ -191,6 +191,14 @@ img:not(.emoji)
 	background: #00a5e5;
 	border-color: #00a5e5;
 }
+	
+/* EMOJI */
+	
+g-emoji
+{
+	font-size:inherit;
+	margin-right: 0;
+}
 
 /* CODE */
 
