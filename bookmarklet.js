@@ -89,15 +89,16 @@ body
 
 a 
 {
-    color: #00a5e5;
-    /*background: transparent;
-    transition: 0.6s;*/
+    color: #00dfb7;
+    transition: 0.6s;
+    /*background: transparent;*/
 }  
 
 a:hover, a:active
 {
     text-decoration: none;
-    border-bottom: 2px solid;
+    color: black;	
+    /*border-bottom: 2px solid;*/
     /*background: #00a5e5;
     color: white;*/
 }  
@@ -151,14 +152,6 @@ a:hover, a:active
 	margin-top: 4em; 
 	margin-bottom: 2em; 
 	line-height: 1.2; 
-}
-
-/* IMAGES  */
-img:not(.emoji)
-{
-	height: 96vh;
-    	margin: 2vh auto;
-    	display: block;
 }
 
 /* LISTS */
