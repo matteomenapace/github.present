@@ -164,7 +164,8 @@ a:hover, a:active
 .markdown-body > ul, 
 .markdown-body > ol 
 {
-    padding-left: 6em;
+    	padding-left: 6em;
+	margin-top: -12rem;
 }
 
 /* CHECKBOXES */
