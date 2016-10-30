@@ -64,10 +64,12 @@ body
 	font-size: 4rem;
 }
 
-.markdown-body p,
-.markdown-body blockquote
+.markdown-body p, 
+.markdown-body blockquote, 
+.markdown-body ol, 
+.markdown-body ul 
 {
-	margin-bottom: 4em;
+    	margin-bottom: 16rem;
 }
 
 .markdown-body li 
