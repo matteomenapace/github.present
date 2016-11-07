@@ -56,10 +56,10 @@ body
 	padding: 0; 
 }
 
-/* PARAGRAPHS */
-
-.markdown-body p, li,
-.markdown-body blockquote
+.markdown-body p, 
+.markdown-body li,
+.markdown-body blockquote,
+.markdown-body table
 {
 	font-size: 4rem;
 }
@@ -67,7 +67,8 @@ body
 .markdown-body p, 
 .markdown-body blockquote, 
 .markdown-body ol, 
-.markdown-body ul 
+.markdown-body ul,
+.markdown-body table	
 {
     	margin-bottom: 16rem;
 }
@@ -198,7 +199,20 @@ g-emoji
 	font-size:inherit;
 	margin-right: 0;
 }
+	
+/* TABLES */	
 
+.markdown-body table
+{
+	display: table;
+}
+	
+.markdown-body table td
+{
+	padding: 1rem;
+	padding-top: 1.2rem;
+}
+	
 /* CODE */
 
 .markdown-body .highlight pre, 
