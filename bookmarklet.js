@@ -33,7 +33,7 @@ body
 .markdown-body, 
 .file 
 { 
-	font-family: "Lekton"; 
+	font-family: "Lekton",-apple-system-font,-apple-system,BlinkMacSystemFont,"Helvetica Neue",Helvetica,Arial,sans-serif; 
 	border: none; 
 } 
 
@@ -153,7 +153,7 @@ a:hover, a:active
 .markdown-body h4,
 .markdown-body h5 
 { 
-	font-family: "Roboto",-apple-system-font,"Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-family: "Roboto",-apple-system-font,-apple-system,BlinkMacSystemFont,"Helvetica Neue",Helvetica,Arial,sans-serif;
 	font-weight: 900;
 	margin-top: 4em; 
 	margin-bottom: 2em; 
