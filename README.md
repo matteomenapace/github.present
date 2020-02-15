@@ -1,7 +1,7 @@
 ### How to install this
 
 1. In Chrome, open the `Bookmarks Manager`
-* Right-click on the `Bookmarks Bar` folder and click `Add Page...` 
+2. Right-click on the `Bookmarks Bar` folder and click `Add Page...` 
 	* `Name` can be whatever you like, e.g. `GitHub.present`
 	* `URL`: copy-paste all the JS code in [bookmarklet.js](https://raw.githubusercontent.com/matteomenapace/github.present/master/bookmarklet.js)
 
